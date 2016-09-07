@@ -1,4 +1,10 @@
 <?php
+// PROBANDO CAMBIO DE LENGUAJE DESDE FUNCTIONS
+add_filter( 'locale', 'language_ES' );
+
+function language_ES( $locale ) {
+    return 'es_ES';
+}
 
 // UPDATE TEMA DESDE WP
 function github_check_update( $transient ) {
