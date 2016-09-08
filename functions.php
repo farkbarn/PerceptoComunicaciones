@@ -1,10 +1,60 @@
 <?php
+// Cambiar el pie de pagina del panel de Administración
+function change_footer_admin() {
+    echo '&copy;2016 Copyright OB Consorcio. Todos los derechos reservados - Web creada por <a href="http://www.obconsorcio.com">OB Consorcio</a>';  
+}
+add_filter('admin_footer_text', 'change_footer_admin');
+
+//omitir info error login
+add_filter('login_errors',create_function('$a', "return null;"));
 // PROBANDO CAMBIO DE LENGUAJE DESDE FUNCTIONS
 add_filter( 'locale', 'language_ES' );
+//LENGUAJE
+function language_ES( $locale ) {return 'es_ES';}
 
-function language_ES( $locale ) {
-    return 'es_ES';
-}
+// PERSONALIZAR EL ADMIN LOGIN
+function style_adm() { ?>
+    <style type="text/css">
+	html{background:none;}
+        .login h1 a {
+	background-image:url(http://www.perceptocomunicaciones.com.ve/wp-content/uploads/2016/09/LogoPercepto.jpg) !important;
+	border-radius: 25px 0px;
+	border: 1px solid white;}
+
+	.login form{
+	border-radius: 50px 10px;
+	border: solid rgba(0, 0, 0, 0.42);
+	box-shadow: 10px 10px 8px #000;
+	background-color: #A8A8A8;}
+
+	.login form .input, .login form input[type="checkbox"], .login input[type="text"]{
+	border-radius: 20px 5px;
+	font-style: italic;}
+
+	body{
+	background:url(http://www.perceptocomunicaciones.com.ve/wp-content/uploads/2016/09/Fondo-Negro-Patron-de-Luz-Abstrato_Fondos-de-Pantalla-Abstratos.jpg) !important;
+	font-size: 18px;
+	font-style: italic;}
+
+	.login label{
+	color: white;
+	font-size: 22px;
+	font-style: italic;}
+
+	.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large{
+	border-radius: 15px 0;
+	border-color: -moz-use-text-color;
+	}
+
+	.login #login_error {visibility: hidden;}
+
+	.login .message{border-radius: 25px 0;}
+
+	#title{width:400px;}
+	.column-title{width:400px;}
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'style_adm' );
 
 // UPDATE TEMA DESDE WP
 function github_check_update( $transient ) {
