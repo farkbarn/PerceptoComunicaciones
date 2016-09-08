@@ -17,14 +17,13 @@ function style_adm() { ?>
     <style type="text/css">
 	html{background:none;}
         .login h1 a {
-	background-image: url(/wp-content/uploads/2016/09/LogoPercepto.jpg);
+	background-image:url(http://www.perceptocomunicaciones.com.ve/wp-content/uploads/2016/09/LogoPercepto.jpg) !important;
 	border-radius: 25px 0px;
-	border: 1px solid white;
-	box-shadow: 10px 10px 8px #000;}
+	border: 1px solid white;}
 
 	.login form{
 	border-radius: 50px 10px;
-	border: solid rgba(255, 108, 0, 0.42);
+	border: solid rgba(0, 0, 0, 0.42);
 	box-shadow: 10px 10px 8px #000;
 	background-color: #A8A8A8;}
 
@@ -33,7 +32,7 @@ function style_adm() { ?>
 	font-style: italic;}
 
 	body{
-	background:url(/wp-content/uploads/2016/09/Fondo-Negro-Patron-de-Luz-Abstrato_Fondos-de-Pantalla-Abstratos.jpg);
+	background:url(http://www.perceptocomunicaciones.com.ve/wp-content/uploads/2016/09/Fondo-Negro-Patron-de-Luz-Abstrato_Fondos-de-Pantalla-Abstratos.jpg) !important;
 	font-size: 18px;
 	font-style: italic;}
 
