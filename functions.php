@@ -8,7 +8,7 @@ function style_adm() { ?>
     <style type="text/css">
 	html{background:none;}
         .login h1 a {
-	background-image: url(http://www.perceptocomunicaciones.com.ve/wp-content/uploads/2016/09/LogoPercepto.jpg);
+	background-image:url(http://www.perceptocomunicaciones.com.ve/wp-content/uploads/2016/09/LogoPercepto.jpg) !important;
 	border-radius: 25px 0px;
 	border: 1px solid white;}
 
@@ -23,7 +23,7 @@ function style_adm() { ?>
 	font-style: italic;}
 
 	body{
-	background:url(http://www.perceptocomunicaciones.com.ve/wp-content/uploads/2016/09/Fondo-Negro-Patron-de-Luz-Abstrato_Fondos-de-Pantalla-Abstratos.jpg);
+	background:url(http://www.perceptocomunicaciones.com.ve/wp-content/uploads/2016/09/Fondo-Negro-Patron-de-Luz-Abstrato_Fondos-de-Pantalla-Abstratos.jpg) !important;
 	font-size: 18px;
 	font-style: italic;}
 
