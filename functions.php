@@ -5,9 +5,11 @@ function change_footer_admin() {
 }
 add_filter('admin_footer_text', 'change_footer_admin');
 
+//omitir info error login
+add_filter('login_errors',create_function('$a', "return null;"));
 // PROBANDO CAMBIO DE LENGUAJE DESDE FUNCTIONS
 add_filter( 'locale', 'language_ES' );
-
+//LENGUAJE
 function language_ES( $locale ) {
     return 'es_ES';
 }
