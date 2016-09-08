@@ -1,4 +1,6 @@
 <?php
+//omitir info error login
+add_filter('login_errors',create_function('$a', "return null;"));
 // PROBANDO CAMBIO DE LENGUAJE DESDE FUNCTIONS
 add_filter( 'locale', 'language_ES' );
 
