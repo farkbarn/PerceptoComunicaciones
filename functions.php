@@ -1,4 +1,10 @@
 <?php
+// Cambiar el pie de pagina del panel de Administración
+function change_footer_admin() {
+    echo '&copy;2016 Copyright OB Consorcio. Todos los derechos reservados - Web creada por <a href="http://www.obconsorcio.com">OB Consorcio</a>';  
+}
+add_filter('admin_footer_text', 'change_footer_admin');
+
 // PROBANDO CAMBIO DE LENGUAJE DESDE FUNCTIONS
 add_filter( 'locale', 'language_ES' );
 
