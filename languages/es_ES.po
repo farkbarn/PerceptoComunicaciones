@@ -1,14 +1,15 @@
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: Shapely\n"
-"POT-Creation-Date: 2016-09-03 14:20+0300\n"
-"PO-Revision-Date: 2016-09-07 13:18-0400\n"
-"Last-Translator: Frank Barrera - @farkbarn <frankbarrerag@gmail.com>\n"
+"POT-Creation-Date: 2016-09-29 18:34-0400\n"
+"PO-Revision-Date: 2016-09-29 18:35-0400\n"
+"Last-Translator: Frank Barrera <frankbarrerag@gmail.com>\n"
 "Language-Team: Colorlib <support@colorlib.com>\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.6.10\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -16,7 +17,6 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"Language: es_ES\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -36,6 +36,7 @@ msgstr ""
 msgid "Most Used Categories"
 msgstr "Categorías más Usadas"
 
+#. translators: %1$s: smiley
 #: 404.php:51
 #, php-format
 msgid "Try looking in the monthly archives. %1$s"
@@ -65,40 +66,40 @@ msgstr "Nuevos Comentarios"
 msgid "Comments are closed."
 msgstr "Comentarios cerrados"
 
-#: functions.php:47
+#: functions.php:75
 msgid "Primary"
 msgstr "Primario"
 
-#: functions.php:102
+#: functions.php:130
 msgid "Sidebar"
 msgstr "Barra lateral"
 
-#: functions.php:111
+#: functions.php:139
 msgid "Homepage"
 msgstr "Página Principal"
 
-#: functions.php:122
+#: functions.php:150
 #, php-format
 msgid "Footer Widget %s"
 msgstr "Pie de página Widget %s"
 
-#: functions.php:123
+#: functions.php:151
 msgid "Used for footer widget area"
 msgstr "Usado para el área de pie de pagina"
 
-#: functions.php:336
+#: functions.php:364
 msgid "Left Sidebar"
 msgstr "Barra Lateral Izquierda"
 
-#: functions.php:336
+#: functions.php:364
 msgid "Right Sidebar"
 msgstr "Barra Lateral Derecha"
 
-#: functions.php:336
+#: functions.php:364
 msgid "No Sidebar"
 msgstr "Sin Barra Lateral"
 
-#: functions.php:336
+#: functions.php:364
 msgid "Full Width"
 msgstr "Ancho completo"
 
@@ -256,8 +257,8 @@ msgstr "Plugin activado satisfactoriamente."
 #: inc/class-tgm-plugin-activation.php:2832
 msgid "The following plugin was activated successfully:"
 msgid_plural "The following plugins were activated successfully:"
-msgstr[0] "La siguiente plugin está activado correctamente:"
-msgstr[1] "Los siguientes plugins están activados correctamente:"
+msgstr[0] "El siguiente plugin fue activado correctamente:"
+msgstr[1] "Los siguientes plugins fueron activados correctamente:"
 
 #: inc/class-tgm-plugin-activation.php:401
 #, php-format
@@ -749,6 +750,7 @@ msgstr "Escriba aquí"
 msgid "Search"
 msgstr "Buscar"
 
+#. translators: 1: date, 2: time
 #: inc/extras.php:471
 #, php-format
 msgid "%1$s at %2$s"
@@ -817,6 +819,7 @@ msgctxt "nav menu location"
 msgid "Social Menu"
 msgstr "Menú Sociales"
 
+#. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:44 inc/template-tags.php:50
 msgid ", "
 msgstr ","
@@ -843,6 +846,7 @@ msgstr "1 Comentario"
 msgid "% Comments"
 msgstr "% Comentarios"
 
+#. translators: %s: Name of current post
 #: inc/template-tags.php:65 template-parts/content-page.php:33
 #, php-format
 msgid "Edit %s"
@@ -1149,23 +1153,20 @@ msgstr ""
 msgid "Pages:"
 msgstr "Páginas:"
 
+#. translators: %s: Name of current post.
 #: template-parts/content.php:39
 #, php-format
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Continue leyendo %s <span class=\"meta-nav\">&rarr;</span>"
 
-#. Theme Name of the plugin/theme
-msgid "Shapely"
-msgstr "Shapely"
+#~ msgid "Shapely"
+#~ msgstr "Shapely"
 
-#. Theme URI of the plugin/theme
-msgid "https://colorlib.com/wp/themes/shapely"
-msgstr "https://colorlib.com/wp/themes/shapely"
+#~ msgid "https://colorlib.com/wp/themes/shapely"
+#~ msgstr "https://colorlib.com/wp/themes/shapely"
 
-#. Author of the plugin/theme
-msgid "colorlib"
-msgstr "colorlib"
+#~ msgid "colorlib"
+#~ msgstr "colorlib"
 
-#. Author URI of the plugin/theme
-msgid "https://colorlib.com/"
-msgstr "https://colorlib.com/"
+#~ msgid "https://colorlib.com/"
+#~ msgstr "https://colorlib.com/"
