@@ -1156,6 +1156,8 @@ nav {
   max-height: 60%;
 }
 .menu > li.dropdown {
+  font-size: 14px;
+  line-height: 30px;
   padding-right: 18px;
 }
 .dropdown:after {
