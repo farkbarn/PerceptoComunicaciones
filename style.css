@@ -2530,6 +2530,7 @@ section {
   width: 100px;
   margin-bottom: 16px;
 }
+
 .image-bg a {
   color: #745cf9;
 }
@@ -2553,3 +2554,10 @@ section {
 
 
 /*** AGREGADO ***/
+.slides li p {
+  color: #000;
+}
+
+.testimonial-author strong {
+  color: #000;
+}
