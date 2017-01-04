@@ -1194,7 +1194,7 @@ nav {
   -moz-transition: all 0.3s ease;
   max-width: 100%;
   white-space: normal;
-  background: #EC4F65;/*#EC4F65 / #e46c7d */
+  background: #e46c7d;/*#EC4F65 / #e46c7d */
   padding: 0 10%;
 }
 .menu li a:hover {
