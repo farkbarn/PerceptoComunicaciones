@@ -1186,7 +1186,7 @@ nav {
   font-size: 11px;
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: initial; /*1px;*/
   color: #FFF !important; /*#0e1015;*/
   /*opacity: 0.5;*/
   transition: all 0.3s ease;
@@ -1195,7 +1195,7 @@ nav {
   max-width: 100%;
   white-space: normal;
   background: #e46c7d;/*#EC4F65 / #e46c7d */
-  padding: 0 10%;
+  padding: 0 5%;
 }
 .menu li a:hover {
   opacity: 1 !important;
