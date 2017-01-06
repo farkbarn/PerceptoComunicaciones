@@ -1147,7 +1147,8 @@ nav .btn, .nav-bar .btn {
 nav {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   height: 70px;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
+  padding-top: 10px;
 }
 .nav-bar .module, .nav-bar .module-group {
   height: 55px;
